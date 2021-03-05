@@ -1,0 +1,171 @@
+@font-face {
+	font-family: "raustila";
+		src: url("../fonts/raustila-Regular.ttf") format("truetype");
+}
+
+body{
+	font-family: "Futura-medium"; 
+	font-size: 20px;
+	color: #4D4D4D;
+}
+
+header {
+	background-color: transparent;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+#inicio {
+	background-position: top center;
+	background-size: cover;
+	background-image: url("../img/fondo1.jpg"); 
+	padding: 18% 0; 
+}
+
+#inicio h1{
+	font-family: "Futura-Medium";
+	font-size: 30px;
+	color: #fff;
+	text-align: start;   
+}
+
+#inicio h1 span, h1 {
+	font-family: "raustila";
+	font-size: 55px;
+}
+
+#inicio .btn-primary {
+	background-color: #0E92CD;
+	padding: 5px 10px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 100px;
+	border: transparent;
+
+}
+
+#inicio .btn-primary:hover {
+	background-color: #163BDE; 
+}
+	
+
+#fincas, #restaurantes, #montanas, #cascadas, #mustsee {
+	background-color: #FAF9F9;
+	padding: 5px 0;
+}
+
+#quiensomos { 
+	background-color: #E6AC18; 
+	padding:3%;
+}
+
+#quiensomos h2 {
+	text-transform: uppercase;
+	font-weight: 800px;  
+	color: #041361; 
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+#quiensomos p {
+	text-align: center;
+}
+
+#fincas h2 {
+	color: #8cc63f;
+	text-align: center; 
+}
+
+#restaurantes h2 {
+	color: #fbb03b;
+	text-align: center;
+}
+
+#montanas h2 {
+	color: #009245;
+	text-align: center; 
+}
+
+#cascadas h2 {
+	color: #33bab1;
+	text-align: center; 
+}
+
+#mustsee h2 {
+	color: #c1272d; 
+	text-align: center;
+}
+
+#fincas p, #montanas p, #mustsee p {
+	text-align: center; 
+}
+
+#restaurantes p, #cascadas p {
+	text-align: center;
+}
+
+#fincas h2, #restaurantes h2, #montanas h2, #cascadas h2, #mustsee h2{
+	font-family: "raustila";
+	font-size: 55px;
+	margin-bottom: 30px;
+	margin-top: 20%;
+}
+
+ .btn-info{
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-left: 270px;
+}
+
+#fincas .btn-info {
+	background-color: #8cc63f;
+	border: transparent;
+}
+
+#restaurantes .btn-info {
+	background-color: #fbb03b;
+	border: transparent;
+}
+
+#montanas .btn-info {
+	background-color: #009245;
+	border: transparent;
+}
+
+#cascadas .btn-info {
+	background-color: #33bab1;
+	border: transparent;
+}
+
+#mustsee .btn-info {
+	background-color: #c1272d;
+	border: transparent;
+}
+
+footer{
+	background-color: #fff;
+	color: #202020;
+	text-align: center;
+	margin-top:12px;
+}
+
+.carousel-control-prev {
+	background-color: transparent;
+	color: #fff;
+}
+
+.carousel-control-next {
+	background-color: transparent;
+	color: #fff;
+}
+
+
+
+
+
