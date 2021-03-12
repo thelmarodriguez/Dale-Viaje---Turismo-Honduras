@@ -2,19 +2,44 @@
 	font-family: "raustila";
 		src: url("../fonts/raustila-Regular.ttf") format("truetype");
 }
+@font-face{
+	font-family: "futura";
+		src: url("../fonts/../fonts/FUTURA.ttf") format("truetype");
+}
+@font-face{
+	font-family: "futura_medium";
+		src: url("../fonts/Futura_20Medium_20BT.ttf") format("truetype");
+}
+@font-face{
+	font-family: "champagne";
+		src: url("../fonts/Champagne & Limousines.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "champagne_bold";
+		src: url("../fonts/Champagne & Limousines Bold.ttf") format("truetype");
+}
 
 body{
-	font-family: "Futura-medium"; 
+	font-family: "futura_medium"; 
 	font-size: 20px;
 	color: #4D4D4D;
 }
 
 header {
 	background-color: transparent;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-size: 18px;
-	font-weight: 300;
+	font-family: "champagne_bold";
+	font-size: 24px;
+	font-weight: 800;
 	text-transform: uppercase;
+}
+
+header{
+	position: absolute;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+	background-color: transparent !important;
 }
 
 #inicio {
@@ -24,14 +49,15 @@ header {
 	padding: 18% 0; 
 }
 
-#inicio h1{
-	font-family: "Futura-Medium";
+#inicio h1, 
+#inicio-slides h1{
+	font-family: "futura_medium";
 	font-size: 30px;
 	color: #fff;
 	text-align: start;   
 }
 
-#inicio h1 span, h1 {
+#inicio-slides h1 span, h1{
 	font-family: "raustila";
 	font-size: 55px;
 }
@@ -44,7 +70,6 @@ header {
 	text-transform: uppercase;
 	margin-bottom: 100px;
 	border: transparent;
-
 }
 
 #inicio .btn-primary:hover {
@@ -74,6 +99,7 @@ header {
 #quiensomos p {
 	text-align: center;
 }
+
 
 #fincas h2 {
 	color: #8cc63f;
@@ -155,15 +181,433 @@ footer{
 	margin-top:12px;
 }
 
-.carousel-control-prev {
+#carouselExampleControls .carousel-control-prev{
 	background-color: transparent;
 	color: #fff;
 }
 
-.carousel-control-next {
+#carouselExampleControls2 .carousel-control-prev{
 	background-color: transparent;
 	color: #fff;
 }
+
+#carouselExampleControls .carousel-control-next{
+	background-color: transparent;
+	color: #fff;
+}
+
+#carouselExampleControls2 .carousel-control-next{
+	background-color: transparent;
+	color: #fff;
+}
+
+#cantadora, #katy, #colibri{
+	background-color: #FAF9F9;
+	padding: 7px 0;
+}
+
+#cantadora h1, #katy h1, #colibri h1{
+	color: #8cc63f;
+	font-size: 55px;
+}
+
+#cantadora h3, #katy h3, #colibri h3{
+	color: #2F3401;
+	font-size: 36px;
+	font-weight: 800;
+}
+
+#cantadora p, #katy p, #colibri p{
+	font-family: "champagne";
+	font-size: 20px;
+}
+
+.location i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 100%;
+	color:#F10307;
+	display: inline-block;
+	text-align: center;
+	border: 0.5px solid #F4F4F4;
+	font-size: 30px;
+}
+
+.location span{
+	font-size: 18px;
+	font-style: italic;
+}
+
+
+.lacantadora h6, .katy h6, .colibri h6{
+	padding: 0 25px;
+}
+
+.socials i{
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: center;
+	border: 0.5px solid #F4F4F4;
+	font-size: 30px;
+	color: #00074B;
+}
+
+.pin i{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	color:#F10307;
+	display: inline-block;
+	text-align: center;
+	border: 0.5px solid #F4F4F4;
+	font-size: 30px;
+}
+
+.pin span{
+	font-size: 18px;
+	font-style: italic;
+}
+
+#latitud, #trespuntos, #cumbre, #angeli, #pasta, #susy{
+	background-color: #FAF9F9;
+	padding: 9px 0;
+}
+
+#latitud h1, #trespuntos h1, #cumbre h1, #angeli h1, #pasta h1, #susy h1{
+	color: #fbb03b;
+	font-size: 55px;
+}
+
+#latitud h3, #trespuntos h3, #cumbre h3, #angeli h3, #pasta h3, #susy h3{
+	color: #2F3401;
+	font-size: 36px;
+	font-weight: 800;
+}
+
+#latitud p, #trespuntos p, #cumbre p, #angeli p, #pasta p, #susy p{
+	font-family: "champagne";
+	font-size: 20px;
+}
+
+#carouselExampleSlides5 .carousel-inner{
+	margin-top: 15%;
+}
+
+#carouselExampleSlides6 .carousel-inner{
+	margin-top: 20%;
+}
+
+#carouselExampleSlidess .carousel-inner{
+	margin-top: 18%;
+}
+
+#carouselExampleSlides4 .carousel-inner{
+	margin-top: 24%;
+}
+
+#carouselExampleSlides .carousel-inner{
+	margin-top: 24%;
+}
+
+#golondrinas, #tigra, #panacam, #sinrumbo{
+	background-color: #FAF9F9;
+	padding: 15px 0;
+}
+
+#golondrinas h1, #tigra h1, #panacam h1, #sinrumbo h1{
+	color: #009245;
+	font-size: 55px;
+}
+
+#golondrinas h3, #tigra h3, #panacam h3, #sinrumbo h3{
+	color: #061843;
+	font-size: 36px;
+}
+
+.map i{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	color: #D28A35;
+	display: inline-block;
+	text-align: center;
+	border: 0.5px solid #F4F4F4;
+	font-size: 30px;
+}
+
+.map span{
+	font-size: 18px;
+	font-style: italic;
+	margin-left: 10px;
+}
+
+#golondrinas p, #tigra p, #panacam p, #sinrumbo p{
+	font-family: "champagne";
+	font-size: 20px;
+}
+
+#azulona, #pulha, #arenales, #guinope, #cascata, #estanzuela{
+	background-color: #FAF9F9;
+	padding: 15px 0;
+}
+
+#azulona h1, #pulha h1, #arenales h1, #guinope h1, #cascata h1, #estanzuela h1{
+	color:  #33bab1;
+	font-size: 55px;
+}
+
+#azulona h3, #pulha h3, #arenales h3, #guinope h3, #cascata  h3, #estanzuela h3{
+	color: #061843;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+#azulona p, #pulha p, #arenales p, #guinope p, #cascata p, #estanzuela p{
+	font-family: "champagne";
+	font-size: 20px;
+}
+
+#fincass{
+	background-position: top center;
+	background-size: cover;
+	background-image: url("../img/cantadoraa.jpg");
+}
+
+#restaurantess{
+	background-position: top center;
+	background-size: cover;
+	background-image: url("../img/plazaentrebarcas.jpg");
+}
+
+#montanass{
+	background-position: top center;
+	background-size: cover;
+	background-image: url("../img/picbonito.jpg");
+}
+
+#cascadass{
+	background-position: top center;
+	background-size: cover;
+	background-image: url("../img/armenia.jpg");
+}
+
+#mustseee{
+	background-position: top center;
+	background-size: cover;
+	background-image: url("../img/santa.jpg");
+}
+
+.arrow i{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	color: #0093B9;
+	display: inline-block;
+	text-align: center;
+	border: 0.5px solid #F4F4F4;
+	font-size: 30px;
+}
+
+.arrow span{
+	font-size: 18px;
+	font-style: italic;
+	margin-left: 10px;
+}
+
+
+#header li{
+	font-family: "champagne";
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+#copan, #cayos, #french, #fortaleza, #campa, #agualpa, #ojojona, #canta, #stb, #cuevas{
+	background-color: #FAF9F9;
+	padding: 15px 0;
+}
+
+#copan h1, #cayos h1, #french h1, #fortaleza h1, #campa h1, #agualpa h1, #ojojona h1, #canta h1, #stb h1, #cuevas h1{
+	color:  #c1272d;
+	font-size: 45px;
+}
+
+#copan h3, #cayos h3, #french h3, #fortaleza h3, #campa h3, #agualpa h3, #ojojona h3, #canta h3, #stb h3, #cuevas h3{
+	color: #061843;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#copan p, #cayos p, #french p, #fortaleza p, #campa p, #agualpa p, #ojojona p, #canta p, #stb p, #cuevas p{
+	font-family: "champagne";
+	font-size: 18px;
+}
+
+
+/*capas en html y css*/
+
+.area{
+	position: relative;
+	overflow: hidden;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.72);
+}
+
+.area-texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	text-align: center;
+	z-index: 1000;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.area-texto h3{
+	color: #fff;
+	font-family: "raustila";
+	font-size: 150px;
+}
+
+.area img, .area-texto h3{
+	filter: blur(1);
+	transition: all 0.3 ease-in;
+}
+
+.area:hover img{
+	filter: blur(0);
+	transform: scale(1.25);
+	transition: all 0.3 ease-in;
+}
+
+.area-texto h3:hover{
+	filter: blur(0);
+	transform: scale(1.25);
+	transition: all 0.3 ease-in;
+}
+
+.title::before{
+	content: "";
+	width:110px;
+	height: 3px;
+	display: inline-block;
+	background-color: #8cc63f;
+	margin: 10px;
+}
+
+.title::after{
+	content: "";
+	width:110px;
+	height: 3px;
+	display: inline-block;
+	background-color: #8cc63f;
+	margin: 10px;
+}
+
+.title2::before{
+	content: "";
+	width:110px;
+	height: 3px;
+	display: inline-block;
+	background-color: #fbb03b;
+	margin: 10px;
+}
+
+.title2::after{
+	content: "";
+	width:110px;
+	height: 3px;
+	display: inline-block;
+	background-color:#fbb03b;
+	margin: 10px;
+}
+
+.title3::before{
+	content: "";
+	width:110px;
+	height: 3px;
+	display: inline-block;
+	background-color: #009245;
+	margin: 10px;
+}
+
+.title3::after{
+	content: "";
+	width:110px;
+	height: 3px;
+	display: inline-block;
+	background-color: #009245;
+	margin: 10px;
+}
+
+.title4::before{
+	content: "";
+	width:110px;
+	height: 3px;
+	display: inline-block;
+	background-color: #33bab1;
+	margin: 10px;
+}
+
+.title4::after{
+	content: "";
+	width:110px;
+	height: 3px;
+	display: inline-block;
+	background-color:#33bab1;
+	margin: 10px;
+}
+.title5::before{
+	content: "";
+	width:110px;
+	height: 3px;
+	display: inline-block;
+	background-color: #c1272d;
+	margin: 10px;
+}
+
+.title5::after{
+	content: "";
+	width:110px;
+	height: 3px;
+	display: inline-block;
+	background-color: #c1272d;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
