@@ -126,6 +126,188 @@ header{
 	text-align: center;
 }
 
+#cantadora{
+	background-image: url("../img/fondos-04.png");
+	background-position: top;
+	background-size: 115%;
+	background-blend-mode: color-burn;
+	background-color: #3D3C3C;
+	padding: 20% 0 10%;
+}
+
+#katy{
+	background-image: url("../img/fondos-04.png");
+	background-position: bottom;
+	background-size: 110%;
+	background-blend-mode: color-burn;
+	background-color: #3D3C3C;
+	padding: 20% 0 9%;
+}
+
+#colibri{
+	background-image: url("../img/fondos-04.png");
+	background-position: top;
+	background-size: 115%;
+	background-blend-mode: color-burn;
+	background-color: #3D3C3C;
+	padding: 20% 0 10%;
+}
+
+#concepcion{
+	background-image: url("../img/fondos-04.png");
+	background-position: bottom;
+	background-size: 112%;
+	background-blend-mode: color-burn;
+	background-color: #3C3C3C;
+	padding: 20% 0 10%;
+}
+
+#glorias{
+	background-image: url("../img/fondos-04.png");
+	background-position: top;
+	background-size: 115%;
+	background-blend-mode: color-burn;
+	background-color: #3D3C3C;
+	padding: 20% 0 10%;
+}
+
+#joya{
+	background-image: url("../img/fondos-04.png");
+	background-position: bottom;
+	background-size: 112%;
+	background-blend-mode: color-burn;
+	background-color: #3C3C3C;
+	padding: 20% 0 9%;
+}
+
+#latitud, #cumbre, #pasta{
+	background-image: url("../img/fondos-05.png");
+	background-position: top;
+	background-size: 112%;
+	background-blend-mode: color-burn;
+	background-color: #3D3C3C;
+	padding: 50% 0 0;
+}
+
+#trespuntos{
+	background-image: url("../img/fondos-05.png");
+	background-position: center;
+	background-size: 120%;
+	background-blend-mode: color-burn;
+	background-color: #3D3C3C;
+	padding: 40% 0 0;
+}
+
+#angeli{
+	background-image: url("../img/fondos-05.png");
+	background-position: center;
+	background-size: 120%;
+	background-blend-mode: color-burn;
+	background-color: #3D3C3C;
+	padding: 0 0 40% 0;
+}
+
+#susy{
+	background-image: url("../img/fondos-05.png");
+	background-position: bottom;
+	background-size: 120%;
+	background-blend-mode: color-burn;
+	background-color: #3D3C3C;
+	padding: 40% 0 0;
+}
+
+#golondrinas, #panacam{
+	background-image: url("../img/montanatop-02.png");
+	background-position: top;
+	background-size: cover;
+	background-blend-mode: multiply;
+	padding: 50% 0 0;
+}
+
+#sinrumbo, #tigra{
+	background-image: url("../img/montanabottom-02.png");
+	background-position: bottom;
+	background-size: cover;
+	background-blend-mode: color-burn;
+	background-color: #3D3C3C;
+	padding: 40% 0 0;
+}
+
+#azulona{
+	background-image: url("../img/cascadatop-03.png");
+	background-position: top;
+	background-size: 105%;
+	background-blend-mode: multiply;
+	padding: 20%;
+}
+
+#estanzuela{
+	background-image: url("../img/cascadabottom-03.png");
+	background-position: bottom;
+	background-size: 108%;
+	background-blend-mode: multiply;
+	padding: 20%;
+}
+
+#copan, #french, #campa, #ojojona, #stb{
+	background-image: url("../img/mustseetop-01.png");
+	background-position: top;
+	background-size: 105%;
+	background-blend-mode: multiply;
+	padding: 20%;
+}
+
+#cayos, #fortaleza, #agualpa, #canta{
+	background-image: url("../img/mustseetop2-01.png");
+	background-position: top;
+	background-size: 105%;
+	background-blend-mode: multiply;
+	padding: 20%;
+}
+
+#cuevas{
+	background-image: url("../img/mustseebottom-01.png");
+	background-position: bottom;
+	background-size: 108%;
+	background-blend-mode: multiply;
+	padding: 20%;
+}
+
+#fincas{
+	background-image: url("../img/hometop1-06.png");
+	background-position: top;
+	background-size: 108%;
+	background-blend-mode: multiply;
+}
+
+#restaurantes{
+	background-image: url("../img/mustseetop-01.png");
+	background-position: top;
+	background-size: 108%;
+	background-blend-mode: multiply;
+}
+
+#montanas{
+	background-image: url("../img/mustseetop2-01.png");
+	background-position: top;
+	background-size: 108%;
+	background-blend-mode: multiply;
+}
+
+#cascadas{
+	background-image: url("../img/hometop2-06.png");
+	background-position: top;
+	background-size: 108%;
+	background-blend-mode: multiply;
+}
+
+#mustsee{
+	background-image: url("../img/homebottom-06.png");
+	background-position: bottom;
+	background-size: 100%;
+	background-blend-mode: multiply;
+}
+
 #fincas p, #montanas p, #mustsee p {
 	text-align: center; 
 }
@@ -201,25 +383,26 @@ footer{
 	color: #fff;
 }
 
-#cantadora, #katy, #colibri{
+#cantadora, #katy, #colibri, #concepcion, #glorias, #joya{
 	background-color: #FAF9F9;
 	padding: 7px 0;
 }
 
-#cantadora h1, #katy h1, #colibri h1{
+#cantadora h1, #katy h1, #colibri h1, #concepcion h1, #glorias h1, #joya h1{
 	color: #8cc63f;
 	font-size: 55px;
 }
 
-#cantadora h3, #katy h3, #colibri h3{
+#cantadora h3, #katy h3, #colibri h3, #concepcion h3, #glorias h3, #joya h3{
 	color: #2F3401;
 	font-size: 36px;
 	font-weight: 800;
 }
 
-#cantadora p, #katy p, #colibri p{
+#cantadora p, #katy p, #colibri p, #concepcion p, #glorias p, #joya p{
 	font-family: "champagne";
 	font-size: 20px;
+	font-weight: 400;
 }
 
 .location i{
@@ -239,8 +422,11 @@ footer{
 	font-style: italic;
 }
 
+#carouselExampleSlideess img, #carouselExampleSlideeess img, #carouselExampleSlideesss img{
+	margin-top: 18%;
+}
 
-.lacantadora h6, .katy h6, .colibri h6{
+.lacantadora h6, .katy h6, .colibri h6, .concepcion h6, .glorias h6{
 	padding: 0 25px;
 }
 
@@ -347,9 +533,29 @@ footer{
 	margin-left: 10px;
 }
 
+.phone i{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	color: #46B4FF;
+	display: inline-block;
+	text-align: center;
+	border: 0.5px solid #F4F4F4;
+	font-size: 30px;
+}
+
+.phone span{
+	font-size: 18px;
+	font-style: italic;
+	margin-left: 10px;
+}
+
+
 #golondrinas p, #tigra p, #panacam p, #sinrumbo p{
 	font-family: "champagne";
 	font-size: 20px;
+	font-weight: 900;
 }
 
 #azulona, #pulha, #arenales, #guinope, #cascata, #estanzuela{
@@ -371,6 +577,7 @@ footer{
 #azulona p, #pulha p, #arenales p, #guinope p, #cascata p, #estanzuela p{
 	font-family: "champagne";
 	font-size: 20px;
+	font-weight: 800;
 }
 
 #fincass{
@@ -447,6 +654,11 @@ footer{
 #copan p, #cayos p, #french p, #fortaleza p, #campa p, #agualpa p, #ojojona p, #canta p, #stb p, #cuevas p{
 	font-family: "champagne";
 	font-size: 18px;
+	font-weight: 900;
+}
+
+#copan .carousel-inner, #cayos .carousel-inner, #french .carousel-inner, #fortaleza .carousel-inner, #campa .carousel-inner, #agualpa .carousel-inner, #ojojona .carousel-inner, #canta .carousel-inner, #stb .carousel-inner, #cuevas .carousel-inner {
+	margin-top: 10%;
 }
 
 
@@ -483,7 +695,7 @@ footer{
 .area-texto h3{
 	color: #fff;
 	font-family: "raustila";
-	font-size: 150px;
+	font-size: 155px;
 }
 
 .area img, .area-texto h3{
